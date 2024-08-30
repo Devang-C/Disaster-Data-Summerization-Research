@@ -119,7 +119,7 @@ if __name__ == "__main__":
     start_time = time.time()
     summarizer = DistilBERTSummarizer()
 
-    csv_path = "Data/turkey_tweets_classified.csv"
+    csv_path = "Data/turkey_dataset_classified_bi_lstm.csv"
     summarizer.summarize_cleaned_text_by_time_interval(csv_path)
 
     end_time = time.time()

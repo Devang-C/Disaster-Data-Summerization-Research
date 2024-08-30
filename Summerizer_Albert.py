@@ -145,7 +145,7 @@ if __name__ == "__main__":
     start_time = time.time()
     albert_summarizer = AlbertTextSummarizer()
 
-    csv_path = "Data/turkey_tweets_classified.csv" 
+    csv_path = "Data/turkey_dataset_classified_bi_lstm.csv" 
     albert_summarizer.summarize_cleaned_text_by_time_interval(csv_path)
 
     end_time = time.time()
