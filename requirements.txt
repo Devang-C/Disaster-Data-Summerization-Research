@@ -1,0 +1,8 @@
+numpy
+pandas
+nltk
+transformers
+sentence_transformers
+bert-extractive-summarizer
+rouge
+scipy
